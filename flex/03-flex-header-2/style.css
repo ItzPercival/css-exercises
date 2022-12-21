@@ -12,6 +12,9 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
 }
 
 .profile-image {
@@ -35,6 +38,7 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+
 }
 
 a {
@@ -45,4 +49,16 @@ a {
 
 ul {
   list-style-type: none;
+  align-items: center;
+  display: flex;
+  gap: 16px;
 }
+
+.left-side, .right-side {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+/* At first i completed this myself but then i saw that the solution had a more organized way of doing it so i just did it like that */
+

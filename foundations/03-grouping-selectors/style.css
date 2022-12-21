@@ -1,0 +1,13 @@
+.bnw,
+.yl {
+    font-size: 50px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+.bnw {
+    background-color: black;
+    color: white;
+}
+
+.yl {
+    background-color: yellow;
+}
